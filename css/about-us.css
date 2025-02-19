@@ -15,6 +15,7 @@
   --independence: #46466e;
   --cultured: #f5f5fa;
   --raspberry: #f0145a;
+  --brightgray: #E6E6F0;
   --box-shadow: 0px 0px 20px 0px #24a3ff80;
   --background: linear-gradient(228.57deg,
       #323264 11.93%,
@@ -147,6 +148,7 @@ ul>li>a {
   justify-content: space-around;
   gap: 40px;
 }
+
 
 .about-item h2 {
   font-size: 36px;
@@ -291,14 +293,11 @@ ul>li>a {
   border-radius: 12px;
   align-items: center;
   flex-direction: row;
-  gap: 40px;
+  gap: 39px;
 }
 
-.container-footer {
-  max-width: 1450px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 15px;
+.section4-flex img{
+  width: 243px;
 }
 
 .knopochki {
@@ -308,41 +307,72 @@ ul>li>a {
   gap: 10px;
 }
 
-.footer-items {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 80px;
-}
-
-.footer-flex {
+.footer-block {
+  padding: var(--padding);
   display: flex;
   flex-direction: column;
-
-  gap: 30px;
+  gap: 20px;
 }
 
-.footer-items2 p {
+.footer-block-top {
+  padding-top: 4%;
   display: flex;
-  align-items: center;
   flex-direction: row;
-  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  border-top: solid 2px var(--brightgray);
 }
 
-.footer-p-ab {
-  color: #b3b3ba;
+.footer-block-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 7px;
 }
 
-.footer-border {
-  border: 2px solid var(--grey);
+.footer-block-text p {
+  font-size: var(--fontsizep);
+  line-height: 19.5px;
+  color: var(--deepkoamaru);
 }
 
-.footer {
-  padding: var(--padding);
-  margin-top: 60px;
+.footer-block-text a {
+  font-size: 12px;
+  line-height: 14.63px;
+  font-weight: var(--fontweight);
+  color: var(--brilliantazure);
 }
 
-.bg-section4 {
-  margin-top: 50px;
-  background: #f5f5fa;
-  width: 100%;
+.footer-block-text2 h2 {
+  font-size: var(--fontsizep);
+  line-height: 19.5px;
+  color: var(--grey);
+}
+
+.footer-block-bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 7px;
+}
+
+.footer-block-text3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 7px;
+}
+
+.footer-block-text3 h2 {
+  font-size: var(--fontsizep);
+  line-height: 19.5px;
+  font-weight: var(--fontweight);
+  color: var(--independence);
+}
+
+.footer-block-text3 a {
+  font-size: var(--fontsizep);
+  line-height: 19.5px;
+  font-weight: var(--fontweight);
+  color: var(--brilliantazure);
 }
