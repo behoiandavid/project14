@@ -280,6 +280,8 @@ a {
     font-weight: 700;
     color: var(--white);
     cursor: pointer;
+    position: relative;
+    z-index: 1;
 }
 
 .section1-block {
