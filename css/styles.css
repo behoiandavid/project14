@@ -464,7 +464,7 @@ a {
     padding: var(--padding);
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 4px;
 }
 
 .section4-block-text a {
