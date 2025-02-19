@@ -586,6 +586,10 @@ a {
     background-color: var(--white);
 }
 
+.section6-block-text3{
+    padding: var(--padding);
+}
+
 .section6-block-descriptions h2 {
     width: 320px;
     font-size: var(--fontsizep);
