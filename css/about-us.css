@@ -16,12 +16,10 @@
   --cultured: #f5f5fa;
   --raspberry: #f0145a;
   --box-shadow: 0px 0px 20px 0px #24a3ff80;
-  --background: linear-gradient(
-    228.57deg,
-    #323264 11.93%,
-    #323264 57.17%,
-    #643e72 87.46%
-  );
+  --background: linear-gradient(228.57deg,
+      #323264 11.93%,
+      #323264 57.17%,
+      #643e72 87.46%);
   --fontsizep: 16px;
   --padding: 2%;
   --fontweight: 700;
@@ -126,7 +124,7 @@ a {
   border-bottom: 3px solid var(--raspberry);
 }
 
-ul > li > a {
+ul>li>a {
   color: var(--brilliantazure);
 }
 
@@ -139,18 +137,16 @@ ul > li > a {
   color: var(--raspberry);
 }
 
-.main {
-}
-.container {
-}
 .section1-about-us {
   margin-top: 65px;
 }
+
 .section-about-us-flex {
   display: flex;
   justify-content: space-around;
   gap: 40px;
 }
+
 .block-text-aboutus {
   width: 662px;
   display: flex;
@@ -175,6 +171,7 @@ ul > li > a {
   line-height: 158%;
   color: var(--balck);
 }
+
 .items-aboutus {
   display: flex;
   flex-direction: column;
@@ -219,8 +216,6 @@ ul > li > a {
   margin: 0;
 }
 
-.section3 {
-}
 .section3-flex {
   display: flex;
   justify-content: space-between;
@@ -240,6 +235,7 @@ ul > li > a {
   width: 362px;
   margin-top: 20px;
 }
+
 .section3-text {
   font-family: var(--font-family);
   font-weight: 400;
@@ -261,6 +257,7 @@ ul > li > a {
 }
 
 .section4 {
+  padding: var(--padding);
   margin-top: 50px;
 }
 
@@ -283,8 +280,6 @@ ul > li > a {
   flex-direction: row;
   gap: 40px;
 }
-.section4-card-block {
-}
 
 .container-footer {
   max-width: 1450px;
@@ -305,12 +300,14 @@ ul > li > a {
   justify-content: space-between;
   margin-top: 80px;
 }
+
 .footer-flex {
   display: flex;
   flex-direction: column;
 
   gap: 30px;
 }
+
 .footer-items2 p {
   display: flex;
   align-items: center;
@@ -327,6 +324,7 @@ ul > li > a {
 }
 
 .footer {
+  padding: var(--padding);
   margin-top: 60px;
 }
 
