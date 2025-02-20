@@ -186,7 +186,7 @@ ul > li > a {
 .card-team-about {
   display: flex;
   justify-content: space-between;
-
+  padding: 5px;
   padding-top: 15px;
 }
 .text-team {
