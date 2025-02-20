@@ -157,20 +157,27 @@ ul > li > a {
 }
 
 .team-cards {
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 .cards-block {
   display: flex;
   flex-direction: row;
   gap: 36px;
+  margin-top: 40px;
 }
 
 .card-team {
   width: 400px;
   height: 462px;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
 }
 
+.card-team:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.5);
+}
 .card-team img {
   border-radius: 12px;
   width: 350px;
@@ -273,4 +280,88 @@ ul > li > a {
   line-height: 19.5px;
   font-weight: var(--fontweight);
   color: var(--brilliantazure);
+}
+
+.section-team-about {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  padding: var(--padding);
+}
+.section-about-team-text {
+  width: 620px;
+  height: 603px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-about-team-text > .text-span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.section-about-team-text > div > span {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 157%;
+  color: var(--grey);
+}
+
+.section-about-team-text > div > span > a {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--brilliantazure);
+}
+
+.image-teamate {
+  border-radius: 12px;
+  width: 400px;
+  height: 500px;
+}
+
+.section-about-team-text > .for-h2 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 38px;
+  background: linear-gradient(298deg, #f0145a 0%, #ef8080 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.line-and-text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  margin-top: 25px;
+  border-top: 3px solid var(--brightgray);
+}
+
+.line-and-text > div {
+  margin-top: 15px;
+}
+
+.line-and-text > div > p {
+  line-height: 120%;
+  margin-top: 25px;
+}
+
+.expirence {
+  display: flex;
+  flex-direction: row;
+  row-gap: 25px;
+}
+
+.experience h2 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--main---regular);
 }
