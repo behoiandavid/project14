@@ -169,6 +169,8 @@ ul > li > a {
   display: flex;
   flex-direction: column;
   row-gap: 10px;
+  width: 422px;
+  height: 301px;
 }
 
 .section-text > .border {
