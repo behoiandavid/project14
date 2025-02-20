@@ -619,12 +619,31 @@ a {
     padding: var(--padding);
 }
 
-.section6-block-descriptions h2 {
+.section6-block-descriptions a {
     width: 320px;
     font-size: var(--fontsizep);
     line-height: 19.5px;
     font-weight: 700;
     color: var(--brilliantazure);
+}
+
+@keyframes text {
+
+    0%,
+    100% {
+        transform: scale(0.9);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+}
+
+.section6-block-descriptions a:hover {
+    background: #F0145A;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text 1s infinite ease-in-out;
 }
 
 .section6-block-descriptions img {
