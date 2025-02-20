@@ -440,11 +440,30 @@ a {
     justify-content: flex-start;
 }
 
-.section3-block-descriptions h2 {
+.section3-block-descriptions a {
     font-size: 22px;
     line-height: 26.82px;
     font-weight: 700;
     color: var(--brilliantazure);
+}
+
+@keyframes text {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+.section3-block-descriptions a:hover {
+    background: #F0145A;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text 1s infinite ease-in-out;
 }
 
 .section3-block-descriptions p {
