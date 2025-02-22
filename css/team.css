@@ -736,6 +736,8 @@ a {
   }
 
   .section2-team-text1 {
+    border-top: solid 4px var(--brightgray);
+    padding-top: 3%;
     display: flex;
     flex-direction: column;
     gap: 30px;
