@@ -528,7 +528,7 @@ a {
     margin-top: 40px;
     flex-wrap: wrap;
     justify-content: flex-start;
-    gap: 7px;
+    gap: 60px;
   }
 
   .main-dektops {
@@ -540,7 +540,7 @@ a {
   }
 
   .card-team {
-    width: 270px;
+    width: 318px;
     height: 462px;
     transition: transform 0.2s ease, box-shadow 0.3s ease;
     border-radius: 12px;
@@ -553,11 +553,12 @@ a {
 
   .card-team img {
     border-radius: 12px;
-    width: 270px;
+    width: 318px;
     height: 370px;
   }
 
   .card-team-about {
+    width: 318px;
     display: flex;
     justify-content: space-between;
     padding: 5px;
