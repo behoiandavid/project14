@@ -514,7 +514,7 @@ ul>li>a {
     flex-direction: column;
     justify-content: space-evenly;
     padding: 3%;
-    gap: 60px;
+    gap: 15px;
   }
 
   .section-text {
