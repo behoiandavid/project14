@@ -1223,6 +1223,7 @@ a {
         flex-direction: row;
         gap: 16px;
         flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     .section6-block-description :nth-child(3) {
