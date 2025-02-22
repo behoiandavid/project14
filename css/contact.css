@@ -130,6 +130,10 @@ a {
   font-weight: 700;
 }
 
+.logo-tablet {
+  display: none;
+}
+
 .active {
   color: var(--raspberry);
   border-bottom: 3px solid var(--raspberry);
