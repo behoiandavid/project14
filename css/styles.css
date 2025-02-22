@@ -1026,7 +1026,7 @@ a {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .section3-block-descriptions {
@@ -1098,7 +1098,7 @@ a {
     }
 
     .section4-block-tablet img {
-        width: 547.22px;
+        width: 708.05px;
     }
 
     .section4-block-text {
@@ -1180,7 +1180,7 @@ a {
     .section5-block-image {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
         flex-wrap: wrap;
     }
 
@@ -1226,7 +1226,7 @@ a {
         flex-direction: row;
         gap: 16px;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .section6-block-description :nth-child(3) {
@@ -1262,7 +1262,7 @@ a {
     }
 
     .section6-block1-descriptions img {
-        width: 519px;
+        width: 601px;
     }
 
     .section6-block1-descriptions {
@@ -1288,19 +1288,15 @@ a {
     }
 
     .section6-block1-descriptions p {
-        width: 235px;
+        width: 250px;
         font-size: 12px;
         line-height: 14.63px;
         font-weight: 700;
         color: var(--grey);
     }
 
-    .section6-block1-text2 {
-        width: 500px;
-    }
-
     .section6-block1-text2 p {
-        width: 519px;
+        width: 586px;
         font-size: 14px;
         line-height: 22px;
         color: var(--balck);
