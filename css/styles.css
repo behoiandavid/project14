@@ -783,7 +783,7 @@ a {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        gap: 40px;
+        gap: 30px;
     }
 
     .header-block-top {
