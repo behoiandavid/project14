@@ -997,11 +997,14 @@ a {
         padding: var(--padding);
         display: flex;
         flex-direction: column;
+        align-items: flex-end;
     }
 
     .section3-block-top {
+        width: 650px;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: flex-start;
         gap: 10px;
     }
