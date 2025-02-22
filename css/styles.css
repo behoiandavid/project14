@@ -869,10 +869,14 @@ a {
     }
 
     .section1-block-text {
-        padding-top: 61px;
+        padding-top: 41px;
         position: relative;
         z-index: 1;
         font-size: 38px;
+    }
+
+    .section1-block-text h2 {
+        font-size: 33px;
         line-height: 46.32px;
         font-weight: var(--fontweight);
         color: var(--white);
@@ -881,7 +885,7 @@ a {
     .section1-block-image {
         position: absolute;
         top: calc(100% - 619.02px);
-        left: calc(100% - 534px);
+        left: calc(80% - 445px);
     }
 
     .section1-block-image img {
@@ -1218,7 +1222,6 @@ a {
     }
 
     .section6-block-description {
-        width: 540px;
         display: flex;
         flex-direction: row;
         gap: 16px;
