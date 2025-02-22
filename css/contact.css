@@ -558,7 +558,7 @@ ul>li>a {
   }
 
   .section-inputs {
-    width: 665px;
+    width: 685px;
     border-radius: 12px;
     padding: 30px;
     height: 640px;
@@ -566,7 +566,7 @@ ul>li>a {
   }
 
   .inputs1 {
-    width: 605px;
+    width: 628px;
     height: 201px;
     padding-top: 25px;
   }
@@ -575,7 +575,7 @@ ul>li>a {
     border: 1px solid var(--white);
     border-radius: 8px;
     padding: 15px;
-    width: 605px;
+    width: 628px;
     height: 56px;
     background: var(--white);
     font-family: var(--font-family);
@@ -589,7 +589,7 @@ ul>li>a {
     border: 1px solid var(--white);
     border-radius: 8px;
     padding: 15px;
-    width: 605px;
+    width: 628px;
     height: 130px;
     background: var(--white);
     margin-top: 10px;
@@ -601,7 +601,7 @@ ul>li>a {
   }
 
   .inputs2 {
-    width: 605px;
+    width: 628px;
     height: 159px;
     margin-top: 60px;
   }
@@ -637,7 +637,7 @@ ul>li>a {
     border: 1px solid var(--white);
     border-radius: 8px;
     padding: 15px;
-    width: 605px;
+    width: 628px;
     height: 56px;
     margin-top: 20px;
     font-family: var(--font-family);
@@ -650,7 +650,7 @@ ul>li>a {
   .section-inputs button {
     border-radius: 12px;
     padding: 18px 30px;
-    width: 605px;
+    width: 628px;
     height: 56px;
     box-shadow: 0 0 20px 0 rgba(36, 163, 255, 0.5);
     background: var(--brilliantazure);
