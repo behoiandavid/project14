@@ -88,6 +88,10 @@ a {
   display: none;
 }
 
+.footer-block-tablet {
+  display: none;
+}
+
 .header-block-button {
   display: flex;
   flex-direction: row;

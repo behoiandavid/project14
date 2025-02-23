@@ -348,6 +348,10 @@ ul>li>a {
   gap: 7px;
 }
 
+.footer-block-tablet {
+  display: none;
+}
+
 .footer-block-text3 h2 {
   font-size: var(--fontsizep);
   line-height: 19.5px;
