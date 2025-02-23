@@ -1448,7 +1448,7 @@ a {
     max-width: 599px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 10px;
   }
 
   .header-desktop {
@@ -1641,6 +1641,7 @@ a {
     flex-direction: row;
     gap: 20px;
     overflow-x: scroll;
+    padding: 35px;
   }
 
   .section2-block-descriptions h2 {
@@ -1666,8 +1667,8 @@ a {
   }
 
   .section2-block-right {
-    padding-top: 10px;
-    width: 547.22px;
+    padding: 0px 30px;
+    width: 375px;
     display: flex;
     flex-direction: column;
     gap: 27px;
@@ -1686,7 +1687,9 @@ a {
   }
 
   .section2-block-right {
-    width: 547.22px;
+    padding: 0px 30px;
+    width: 375px;
+    height: 352px;
   }
 
   .section2-block-right h2 {
@@ -1710,7 +1713,7 @@ a {
   }
 
   .section3-block-top {
-    width: 650px;
+    width: 375px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1743,7 +1746,7 @@ a {
 
   .section3-block-descriptions {
     padding-top: 60px;
-    width: 250px;
+    width: 370px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -1809,7 +1812,9 @@ a {
   }
 
   .section4-block-tablet img {
-    width: 708.05px;
+    border-radius: 12px 12px 0 0;
+    width: 360px;
+    height: 500px;
   }
 
   .section4-block-text {
@@ -1862,6 +1867,7 @@ a {
     border-radius: 50px;
     cursor: pointer;
     transition: 0.3s;
+    margin-top: 20px;
   }
 
   .section4-block-button button:hover {
@@ -1882,7 +1888,7 @@ a {
   }
 
   .section5-block h2 {
-    font-size: 14px;
+    font-size: 20px;
     line-height: 17.07px;
     font-weight: var(--fontweight);
     color: var(--deepkoamaru);
@@ -1890,13 +1896,13 @@ a {
 
   .section5-block-image {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
   }
 
   .section5-block-image img {
-    width: 178px;
+    width: 375px;
   }
 
   .section6-block {
@@ -1934,7 +1940,7 @@ a {
 
   .section6-block-description {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 16px;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -1951,6 +1957,14 @@ a {
     gap: 10px;
     border-radius: 8px;
     background-color: var(--white);
+    width: 365px;
+  }
+
+  .section6-block-descriptions img {
+    width: 340px;
+
+    display: flex;
+    justify-content: center;
   }
 
   .section6-block-tablet2 img {
@@ -1973,7 +1987,7 @@ a {
   }
 
   .section6-block1-descriptions img {
-    width: 601px;
+    width: 340px;
   }
 
   .section6-block1-descriptions {
@@ -1999,7 +2013,7 @@ a {
   }
 
   .section6-block1-descriptions p {
-    width: 250px;
+    width: 340px;
     font-size: 12px;
     line-height: 14.63px;
     font-weight: 700;
@@ -2007,7 +2021,7 @@ a {
   }
 
   .section6-block1-text2 p {
-    width: 586px;
+    width: 340px;
     font-size: 14px;
     line-height: 22px;
     color: var(--balck);
@@ -2045,7 +2059,7 @@ a {
   }
 
   .section6-block-descriptions img {
-    width: 235px;
+    width: 340px;
   }
 
   .section6-laptop-descriptios {
@@ -2080,7 +2094,7 @@ a {
   .footer-block-top {
     padding-top: 2%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     border-top: solid 2px var(--brightgray);
@@ -2088,7 +2102,7 @@ a {
 
   .footer-block-text {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     gap: 3px;
   }
@@ -2116,14 +2130,14 @@ a {
 
   .footer-block-bottom {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     gap: 7px;
   }
 
   .footer-block-text3 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     gap: 7px;
   }
