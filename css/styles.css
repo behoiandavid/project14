@@ -1451,6 +1451,20 @@ a {
     padding: 0 10px;
   }
 
+  .header-mobile-lang {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-mobile-lang h2 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    text-align: right;
+    color: var(--white);
+  }
+
   .header-desktop {
     display: none;
   }
@@ -1636,12 +1650,12 @@ a {
   }
 
   .section2-blok-description {
-    width: 547.22px;
+    width: 413px;
     display: flex;
     flex-direction: row;
     gap: 20px;
     overflow-x: scroll;
-    padding: 35px;
+    padding: 45px;
   }
 
   .section2-block-descriptions h2 {
