@@ -1636,17 +1636,11 @@ a {
   }
 
   .section2-blok-description {
+    width: 547.22px;
     display: flex;
     flex-direction: row;
     gap: 20px;
     overflow-x: scroll;
-
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-  }
-
-  .section2-blok-description::-webkit-scrollbar {
-    display: none;
   }
 
   .section2-block-descriptions h2 {
