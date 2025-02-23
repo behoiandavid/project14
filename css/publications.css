@@ -266,8 +266,11 @@ a {
 }
 
 .header-block-logo {
-
     cursor: pointer;
+}
+
+.header-block-button button:last-child {
+    color: var(--white);
 }
 
 .header-nav-description {
