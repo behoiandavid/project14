@@ -1476,7 +1476,7 @@ a {
     z-index: 1;
   }
 
-  .header-mobile-menu :first-child {
+  .header-mobile-menu > .logo {
     width: 255px;
   }
 
@@ -1742,6 +1742,7 @@ a {
     font-size: 38px;
     line-height: 46.32px;
     font-weight: 700;
+    padding-left: 40px;
   }
 
   .section3-block-nav a {
@@ -1749,6 +1750,7 @@ a {
     line-height: 17.07px;
     font-weight: var(--fontweight);
     color: var(--brilliantazure);
+    padding-left: 40px;
   }
 
   .section3-block-description {
@@ -1760,7 +1762,7 @@ a {
 
   .section3-block-descriptions {
     padding-top: 60px;
-    width: 370px;
+    width: 330px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -1827,7 +1829,7 @@ a {
 
   .section4-block-tablet img {
     border-radius: 12px 12px 0 0;
-    width: 360px;
+    width: 340px;
     height: 500px;
   }
 
@@ -1916,7 +1918,7 @@ a {
   }
 
   .section5-block-image img {
-    width: 375px;
+    width: 340px;
   }
 
   .section6-block {
