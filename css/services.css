@@ -1463,7 +1463,7 @@ a {
     z-index: 1;
   }
 
-  .header-mobile-menu > .logo {
+  .header-mobile-menu > a > img {
     width: 255px;
   }
 
