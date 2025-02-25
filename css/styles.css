@@ -1586,10 +1586,6 @@ a {
     gap: 10px;
   }
 
-  .burger > img {
-    width: 50px;
-  }
-
   .header-nav-descriptions {
     font-size: var(--fontsizep);
     line-height: 19.5px;
