@@ -17,12 +17,10 @@
   --raspberry: #f0145a;
   --brightgray: #e6e6f0;
   --box-shadow: 0px 0px 20px 0px #24a3ff80;
-  --background: linear-gradient(
-    228.57deg,
-    #323264 11.93%,
-    #323264 57.17%,
-    #643e72 87.46%
-  );
+  --background: linear-gradient(228.57deg,
+      #323264 11.93%,
+      #323264 57.17%,
+      #643e72 87.46%);
   --fontsizep: 16px;
   --padding: 2%;
   --fontweight: 700;
@@ -46,12 +44,10 @@ a {
 }
 
 .gradient {
-  background: linear-gradient(
-    228.57deg,
-    #323264 11.93%,
-    #323264 57.17%,
-    #643e72 87.46%
-  );
+  background: linear-gradient(228.57deg,
+      #323264 11.93%,
+      #323264 57.17%,
+      #643e72 87.46%);
 }
 
 .facebook-header {
@@ -82,6 +78,10 @@ a {
   flex-direction: column;
   align-items: flex-end;
   gap: 20px;
+}
+
+.header-mobile {
+  display: none;
 }
 
 .header-block-top {
@@ -340,7 +340,7 @@ a {
   flex-direction: column;
 }
 
-.section-about-team-text > .text-span {
+.section-about-team-text>.text-span {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -348,7 +348,7 @@ a {
   margin-top: 20px;
 }
 
-.section-about-team-text > div > span {
+.section-about-team-text>div>span {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 14px;
@@ -356,7 +356,7 @@ a {
   color: var(--grey);
 }
 
-.section-about-team-text > div > span > a {
+.section-about-team-text>div>span>a {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
@@ -369,7 +369,7 @@ a {
   height: 500px;
 }
 
-.section-about-team-text > .for-h2 {
+.section-about-team-text>.for-h2 {
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 38px;
@@ -387,11 +387,11 @@ a {
   border-top: 3px solid var(--brightgray);
 }
 
-.line-and-text > div {
+.line-and-text>div {
   margin-top: 15px;
 }
 
-.line-and-text > div > p {
+.line-and-text>div>p {
   line-height: 120%;
   margin-top: 25px;
 }
@@ -832,7 +832,7 @@ a {
     text-decoration: none;
   }
 
-  #burger:checked + .burger + .menu {
+  #burger:checked+.burger+.menu {
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
@@ -864,7 +864,7 @@ a {
     z-index: 1;
   }
 
-  .header-mobile-menu > .logo {
+  .header-mobile-menu>.logo {
     width: 255px;
   }
 

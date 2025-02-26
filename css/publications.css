@@ -167,12 +167,10 @@ body {
   --raspberry: #f0145a;
   --brightgray: #e6e6f0;
   --box-shadow: 0px 0px 20px 0px #24a3ff80;
-  --background: linear-gradient(
-    228.57deg,
-    #323264 11.93%,
-    #323264 57.17%,
-    #643e72 87.46%
-  );
+  --background: linear-gradient(228.57deg,
+      #323264 11.93%,
+      #323264 57.17%,
+      #643e72 87.46%);
   --fontsizep: 16px;
   --padding: 2%;
   --fontweight: 700;
@@ -205,6 +203,10 @@ a {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+}
+
+.header-mobile {
+  display: none;
 }
 
 .header-block-right {
@@ -369,6 +371,7 @@ a {
 }
 
 @keyframes text {
+
   0%,
   100% {
     transform: scale(0.9);
@@ -418,6 +421,7 @@ a {
 }
 
 @keyframes button1 {
+
   0%,
   100% {
     transform: scale(1);
@@ -667,6 +671,7 @@ a {
 }
 
 @keyframes button {
+
   0%,
   100% {
     transform: scale(1);
@@ -743,6 +748,7 @@ a {
 }
 
 @keyframes text {
+
   0%,
   100% {
     transform: scale(0.9);
@@ -965,6 +971,7 @@ a {
   }
 
   @keyframes text {
+
     0%,
     100% {
       transform: scale(0.9);
@@ -1014,6 +1021,7 @@ a {
   }
 
   @keyframes button1 {
+
     0%,
     100% {
       transform: scale(1);
@@ -1373,6 +1381,7 @@ a {
   }
 
   @keyframes button {
+
     0%,
     100% {
       transform: scale(1);
@@ -1512,6 +1521,7 @@ a {
   }
 
   @keyframes text {
+
     0%,
     100% {
       transform: scale(0.9);
@@ -1623,7 +1633,7 @@ a {
     text-decoration: none;
   }
 
-  #burger:checked + .burger + .menu {
+  #burger:checked+.burger+.menu {
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
@@ -1655,7 +1665,7 @@ a {
     z-index: 1;
   }
 
-  .header-mobile-menu > a > img {
+  .header-mobile-menu>a>img {
     width: 255px;
   }
 
@@ -1742,6 +1752,7 @@ a {
   }
 
   @keyframes text {
+
     0%,
     100% {
       transform: scale(0.9);
@@ -1791,6 +1802,7 @@ a {
   }
 
   @keyframes button1 {
+
     0%,
     100% {
       transform: scale(1);
@@ -2105,7 +2117,7 @@ a {
     gap: 15px;
   }
 
-  .section2-pages-image2 > div > img {
+  .section2-pages-image2>div>img {
     width: 345px;
   }
 
@@ -2154,6 +2166,7 @@ a {
   }
 
   @keyframes button {
+
     0%,
     100% {
       transform: scale(1);
@@ -2293,6 +2306,7 @@ a {
   }
 
   @keyframes text {
+
     0%,
     100% {
       transform: scale(0.9);
@@ -2459,6 +2473,7 @@ a {
   }
 
   @keyframes text {
+
     0%,
     100% {
       transform: scale(0.9);
