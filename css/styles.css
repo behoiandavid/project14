@@ -1638,7 +1638,7 @@ a {
   }
 
   .section1-block-image img {
-    width: 375px;
+    width: 360px;
   }
 
   .section1-block-button button {
@@ -1677,7 +1677,7 @@ a {
   }
 
   .section2-blok-description {
-    width: 413px;
+    width: 315px;
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -1857,7 +1857,7 @@ a {
 
   .section4-block-tablet img {
     border-radius: 12px 12px 0 0;
-    width: 340px;
+    width: 359px;
     height: 500px;
   }
 
@@ -1876,6 +1876,7 @@ a {
   }
 
   .section4-block-text span {
+    width: 360px;
     font-size: 38px;
     line-height: 46.32px;
     font-weight: var(--fontweight);
@@ -2001,7 +2002,7 @@ a {
     gap: 10px;
     border-radius: 8px;
     background-color: var(--white);
-    width: 365px;
+    width: 353px;
   }
 
   .section6-block-descriptions img {
