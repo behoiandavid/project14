@@ -1399,6 +1399,10 @@ a {
     display: none;
   }
 
+  .header-mobile {
+    display: block;
+  }
+
   .burger {
     display: inline-block;
     cursor: pointer;

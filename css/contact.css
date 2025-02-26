@@ -773,15 +773,15 @@ ul>li>a {
     display: none;
   }
 
+  .header-mobile {
+    display: block;
+  }
+
   .container {
     max-width: 1023px;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
-  }
-
-  .header-desktop {
-    display: none;
   }
 
   .container {

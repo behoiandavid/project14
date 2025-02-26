@@ -1469,6 +1469,10 @@ a {
     padding: 0 10px;
   }
 
+  .header-mobile {
+    display: block;
+  }
+
   .hidden {
     display: none;
   }
